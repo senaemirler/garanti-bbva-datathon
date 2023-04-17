@@ -8,7 +8,7 @@ This project aims to predict whether people changed jobs in 2019 using the Tech-
 The problem is framed as a churn prediction task, where i try to identify job seekers who are likely to leave their current job and switch to a new one. The goal is to build a machine learning model that can accurately predict job change based on the available features.
 
 # Dataset
-The Tech-Talent dataset is provided by Garanti BBVA Company and contains 3 diffrent dataset (skills.csv, language.csv, work_exp.csv) total (user_id 	industry	location	moved_after_2019	school_name	degree	fields_of_study	start_year_month	end_year_month	skill	company_id	language ) rows. The data is split into a training set and a test set, with 80:20 of the data in the test set. SMOTE Method is used for balancing datasets.
+The Tech-Talent dataset is provided by Garanti BBVA Company and contains 3 diffrent dataset (skills.csv, language.csv, work_exp.csv) (user_id 	industry	location	moved_after_2019	school_name	degree	fields_of_study	start_year_month	end_year_month	skill	company_id	language ) rows Skills.csv is not included. The data is split into a training set and a test set, with 80:20 ratio of the data in the test set. SMOTE Method is used for balancing datasets.
 
 # Methodology
 Follow the following steps to build the machine learning model:
